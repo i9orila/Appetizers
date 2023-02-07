@@ -8,18 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		ED32DD17299250EC006E200A /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED32DD16299250EC006E200A /* AppetizersApp.swift */; };
-		ED32DD19299250EC006E200A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED32DD18299250EC006E200A /* ContentView.swift */; };
+		ED32DD19299250EC006E200A /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED32DD18299250EC006E200A /* AppetizerTabView.swift */; };
 		ED32DD1B299250ED006E200A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED32DD1A299250ED006E200A /* Assets.xcassets */; };
 		ED32DD1F299250ED006E200A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED32DD1E299250ED006E200A /* Preview Assets.xcassets */; };
+		ED704BEB29925202004EF63D /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED704BEA29925202004EF63D /* AppetizerListView.swift */; };
+		ED704BED2992522F004EF63D /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED704BEC2992522F004EF63D /* AccountView.swift */; };
+		ED704BEF29925259004EF63D /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED704BEE29925259004EF63D /* OrderView.swift */; };
+		ED704BF129925E28004EF63D /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED704BF029925E28004EF63D /* Appetizer.swift */; };
+		ED704BF3299271FC004EF63D /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED704BF2299271FC004EF63D /* AppetizerListCell.swift */; };
+		ED704BF529927624004EF63D /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED704BF429927624004EF63D /* APError.swift */; };
+		ED704BF7299276E8004EF63D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED704BF6299276E8004EF63D /* NetworkManager.swift */; };
+		ED704BFA29928E0C004EF63D /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED704BF929928E0C004EF63D /* AppetizerListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED32DD13299250EC006E200A /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED32DD16299250EC006E200A /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
-		ED32DD18299250EC006E200A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED32DD18299250EC006E200A /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
 		ED32DD1A299250ED006E200A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED32DD1C299250ED006E200A /* Appetizers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Appetizers.entitlements; sourceTree = "<group>"; };
 		ED32DD1E299250ED006E200A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED704BEA29925202004EF63D /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
+		ED704BEC2992522F004EF63D /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		ED704BEE29925259004EF63D /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		ED704BF029925E28004EF63D /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		ED704BF2299271FC004EF63D /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
+		ED704BF429927624004EF63D /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		ED704BF6299276E8004EF63D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		ED704BF929928E0C004EF63D /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +68,17 @@
 		ED32DD15299250EC006E200A /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
-				ED32DD16299250EC006E200A /* AppetizersApp.swift */,
-				ED32DD18299250EC006E200A /* ContentView.swift */,
-				ED32DD1A299250ED006E200A /* Assets.xcassets */,
 				ED32DD1C299250ED006E200A /* Appetizers.entitlements */,
+				ED32DD16299250EC006E200A /* AppetizersApp.swift */,
+				ED704BF029925E28004EF63D /* Appetizer.swift */,
+				ED32DD18299250EC006E200A /* AppetizerTabView.swift */,
+				ED704BFB29928EFC004EF63D /* AppetizerListView */,
+				ED704BF429927624004EF63D /* APError.swift */,
+				ED704BF2299271FC004EF63D /* AppetizerListCell.swift */,
+				ED704BEE29925259004EF63D /* OrderView.swift */,
+				ED704BEC2992522F004EF63D /* AccountView.swift */,
+				ED704BF6299276E8004EF63D /* NetworkManager.swift */,
+				ED32DD1A299250ED006E200A /* Assets.xcassets */,
 				ED32DD1D299250ED006E200A /* Preview Content */,
 			);
 			path = Appetizers;
@@ -67,6 +90,15 @@
 				ED32DD1E299250ED006E200A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED704BFB29928EFC004EF63D /* AppetizerListView */ = {
+			isa = PBXGroup;
+			children = (
+				ED704BEA29925202004EF63D /* AppetizerListView.swift */,
+				ED704BF929928E0C004EF63D /* AppetizerListViewModel.swift */,
+			);
+			path = AppetizerListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +171,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED32DD19299250EC006E200A /* ContentView.swift in Sources */,
+				ED704BF7299276E8004EF63D /* NetworkManager.swift in Sources */,
+				ED704BF129925E28004EF63D /* Appetizer.swift in Sources */,
+				ED704BF3299271FC004EF63D /* AppetizerListCell.swift in Sources */,
+				ED704BFA29928E0C004EF63D /* AppetizerListViewModel.swift in Sources */,
+				ED704BED2992522F004EF63D /* AccountView.swift in Sources */,
+				ED704BF529927624004EF63D /* APError.swift in Sources */,
+				ED32DD19299250EC006E200A /* AppetizerTabView.swift in Sources */,
 				ED32DD17299250EC006E200A /* AppetizersApp.swift in Sources */,
+				ED704BEB29925202004EF63D /* AppetizerListView.swift in Sources */,
+				ED704BEF29925259004EF63D /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +309,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Appetizers/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -279,6 +320,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -307,6 +349,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Appetizers/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -317,6 +360,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
