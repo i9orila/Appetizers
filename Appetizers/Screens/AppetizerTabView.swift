@@ -12,22 +12,13 @@ struct AppetizerTabView: View {
         
         TabView {
             AppetizerListView()
-                .tabItem {
-                    Image(systemName: "house.fill")
-                    Text("Home")
-                }
+                .tabItem { Label( "Home", systemImage:"house.fill") }
             
             OrderView()
-                .tabItem {
-                    Image(systemName: "bag.fill")
-                    Text("Order")
-                }
+                .tabItem { Label("Order", systemImage: "bag.fill") }
             
             AccountView()
-                .tabItem {
-                    Image(systemName: "person.fill")
-                    Text("Account")
-                }
+                .tabItem { Label("Account", systemImage: "person.fill") }
         }
     }
 }
