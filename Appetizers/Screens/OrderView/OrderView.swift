@@ -9,9 +9,7 @@ import SwiftUI
 
 struct OrderView: View {
     
-    var  sum: Double = 50.95
     @EnvironmentObject var order: Order
-    
     
     var body: some View {
         ZStack {
@@ -22,24 +20,33 @@ struct OrderView: View {
                             AppetizerListCell(appetizer: appetizer)
                         }
                         .onDelete(perform:order.deleteItems)
+                        
+                        
+                        
                     }
-                    
+                    .listStyle(.plain)
                     .navigationTitle("🧾 Order")
+                    
+                    
                 }
+                
                 Button {
                     
                 } label: {
-                    APButton(title: "$\(order.totalPrice, specifier: "%.2f") - Place Order ")
+                    //APButton(title: "$\(order.totalPrice, specifier: "%.2f") - Place Order")
+                    Text("$\(order.totalPrice, specifier: "%.2f") - Place Order")
                 }
-                .padding(.bottom, 25)
+                .modifier(StandartButtonStyle())
+                .padding(.bottom, 15)
             }
             if order.items.isEmpty {
                 EmptyState(imageName: "basket", message: "You have no items inyour order. \n Please add an appetizer!")
+                
+                
             }
             
         }
     }
-   
 }
 
 struct OrderView_Previews: PreviewProvider {
