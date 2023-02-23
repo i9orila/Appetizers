@@ -16,6 +16,9 @@ struct AlertItem: Identifiable {
 
 struct AlertContext {
     //MARK: - Network Alerts
+    static let unknownError       = AlertItem(title: Text("Unknown Error"),
+                                            message: Text("There was in issue  connecting to the server. Please contact support."),
+                                            dissmisButton: .default(Text("OK")))
     static let invalidURL       = AlertItem(title: Text("Invalid Device Input"),
                                             message: Text("There was in issue  connecting to the server. Please contact support."),
                                             dissmisButton: .default(Text("OK")))

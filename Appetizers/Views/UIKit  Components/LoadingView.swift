@@ -5,7 +5,6 @@
 //  Created by I9orila on 08.02.2023.
 //
 
-import Foundation
 import SwiftUI
 
 struct ActivityIndicator: View {
@@ -49,13 +48,14 @@ struct LoadingView: View {
         ZStack {
             Color(.systemBackground)
                 .ignoresSafeArea()
-            ActivityIndicator()
-            .frame(width: 50, height: 50)
-            .foregroundColor(.brandPrimary)
+//            ActivityIndicator()
+//            .frame(width: 50, height: 50)
+//            .foregroundColor(.brandPrimary)
+            
+            ProgressView()
+                .progressViewStyle(CircularProgressViewStyle(tint: .brandPrimary))
+                .scaleEffect(1.5)
         }
     }
 }
 
-
-//ActivityIndicator()
-//.frame(width: 50, height: 50)

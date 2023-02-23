@@ -32,6 +32,7 @@
 		ED704C0129940019004EF63D /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED704C0029940019004EF63D /* Color+Ext.swift */; };
 		ED704C0329993566004EF63D /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED704C0229993565004EF63D /* RemoteImage.swift */; };
 		ED704C11299A806C004EF63D /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED704C10299A806C004EF63D /* AppetizerDetailView.swift */; };
+		EDC6F1EB29A72B53008F0F81 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC6F1EA29A72B53008F0F81 /* Date+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		ED704C0029940019004EF63D /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		ED704C0229993565004EF63D /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		ED704C10299A806C004EF63D /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
+		EDC6F1EA29A72B53008F0F81 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 			children = (
 				ED704C0029940019004EF63D /* Color+Ext.swift */,
 				ED34D544299BE19700DB684D /* String+Ext.swift */,
+				EDC6F1EA29A72B53008F0F81 /* Date+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				ED704BF7299276E8004EF63D /* NetworkManager.swift in Sources */,
 				ED704BF129925E28004EF63D /* Appetizer.swift in Sources */,
 				ED704BF3299271FC004EF63D /* AppetizerListCell.swift in Sources */,
+				EDC6F1EB29A72B53008F0F81 /* Date+Ext.swift in Sources */,
 				ED704BFA29928E0C004EF63D /* AppetizerListViewModel.swift in Sources */,
 				ED34D543299BDDF900DB684D /* AccountViewModel.swift in Sources */,
 				ED704C0129940019004EF63D /* Color+Ext.swift in Sources */,
